@@ -64,17 +64,7 @@ Ensure you have:
 
 ---
 
-### **2. Clone the Repository & Install Dependencies**
-
-```bash
-git clone <repository-url>
-cd Note--
-npm install
-```
-
----
-
-### **3. Configure Environment Variables**
+### **2. Configure Environment Variables**
 
 Create an `.env` file in the project root:
 
@@ -85,7 +75,7 @@ EXPO_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
 
 ---
 
-### **4. Run the Project**
+### **3. Run the Project**
 
 ```bash
 npx expo start
@@ -102,3 +92,4 @@ eas build --platform android
 ```
 
 ---
+
